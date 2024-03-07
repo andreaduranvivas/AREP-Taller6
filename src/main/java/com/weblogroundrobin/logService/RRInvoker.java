@@ -8,6 +8,7 @@ import java.net.URL;
 public class RRInvoker {
     private static final String USER_AGENT = "Mozilla/5.0";
     private static final String GET_URL = "http://localhost:5000/logservice";
+
     public static String invoke() throws IOException {
         URL obj = new URL(GET_URL);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
