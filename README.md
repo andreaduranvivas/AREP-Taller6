@@ -20,15 +20,16 @@ Las siguientes instrucciones le permitirán obtener una copia del proyecto en fu
 
 - [Git](https://www.youtube.com/watch?v=4xqVv2lTo40/) - Control de versiones
 - [Maven](https://www.youtube.com/watch?v=1QfiyR_PWxU) - Gestor de dependencias
-- [Java](https://www.youtube.com/watch?v=BG2OSaxWX4E) - Lenguaje de programación
+- [Java 17](https://www.youtube.com/watch?v=BG2OSaxWX4E) - Lenguaje de programación
 - [Docker](https://www.youtube.com/watch?v=ZO4KWQfUBBc) - Motor de contenedores
+- [Docker Compose](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) - Herramienta para definir y ejecutar aplicaciones Docker de múltiples contenedores
 
 ### Instalación
 
 Para hacer una copia local del proyecto, debemos abrir nuestra terminal, dirigirnos al directorio donde estará el proyecto y usar el siguiente comando
 
 ```bash
-git clone https://github.com/DanielOchoa1214/Lab6-AREP.git
+git clone https://github.com/andreaduranvivas/AREP-Taller6
 ```
 
 Nos dirigimos al directorio creado con
@@ -58,6 +59,10 @@ Cuando se da clic en el botón, veremos una tabla donde se resumen las principal
 
 A continuación se presenta un video demostrando el funcionamiento de la aplicación, haciendo uso de una instancia de EC2 en AWS.
 En este caso, lo único que cambiamos es la URL, ya que ya no sería localhost, sino el DNS de la IPv4 pública de nuestra VM.
+Cabe recordar que se deben agregar las reglas de entrada a la instancia para poder ejecutar la aplicación, se deben abrir los puertos
+8080, 35001, 35002, 35003 y 27017.
+
+[![Video Prototipo](multimedia/Arquitectura%20de%20Logs%20con%20EC2%20de%20AWS.mp4)](https://youtu.be/AINZ3AHpHRU)
 
 
 ## Pruebas
