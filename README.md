@@ -1,7 +1,5 @@
 # AREP - Taller 6
 
-Simple overview of use/purpose.
-
 ## Descripción
 
 El laboratorio es un prototipo de una aplicación de registro de logs distribuida y balanceada con Round Robin, 
