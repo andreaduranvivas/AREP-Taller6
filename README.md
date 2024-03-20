@@ -22,7 +22,7 @@ Las siguientes instrucciones le permitirán obtener una copia del proyecto en fu
 - [Docker](https://www.youtube.com/watch?v=ZO4KWQfUBBc) - Motor de contenedores
 - [Docker Compose](https://www.youtube.com/watch?v=Qw9zlE3t8Ko) - Herramienta para definir y ejecutar aplicaciones Docker de múltiples contenedores
 
-### Instalación
+## Instalación
 
 Para hacer una copia local del proyecto, debemos abrir nuestra terminal, dirigirnos al directorio donde estará el proyecto y usar el siguiente comando
 
