@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Calculadora</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-</head>
-<body>
-<h1>Bienvenido a la Calculadora</h1>
-<a href="/sin.html"><button>Calcular Seno</button></a>
-<a href="/cos.html"><button>Calcular Coseno</button></a>
-<a href="/magnitude.html"><button>Calcular Magnitud</button></a>
-<a href="/palindrome.html"><button>Verificar Palíndromo</button></a>
-</body>
+    <head>
+        <title>Form Example</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Log Form</h1>
+        <form action="/log">
+            <label for="msg">Mensaje:</label><br>
+            <input type="text" id="msg" name="msg" value="Mensaje"><br><br>
+            <input type="button" value="Submit" onclick="loadGetMsg(event)">
+        </form>
+        <div id="getrespmsg"></div>
+
+        <script src="log.js"></script>
+    </body>
 </html>
